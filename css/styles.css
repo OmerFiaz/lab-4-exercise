@@ -28,9 +28,8 @@ main {
 section {
   font-size: 1em;
   background: #888;
-  width: 22%;
   margin: 1em 1% 1em 1%;
-  display: inline-block;
+
 }
 section:hover {
   background: #666;
@@ -39,7 +38,12 @@ section:hover {
 @media screen and (min-width: 500px) {
 	
     body{
-  background: #00f;
+     background: #00f;
+	}
+	section{
+		width :45%;
+		display:inline-block;
+	}
  
 }
 
@@ -47,4 +51,11 @@ section:hover {
 @media screen and (min-width: 1000px) {
      body{
   background: #f00;
+	 }
+	 
+section{
+		width: 22%;
+	
+	}
+  
 }
